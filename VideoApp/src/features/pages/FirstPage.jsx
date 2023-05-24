@@ -10,14 +10,6 @@ function FirstPage() {
   const [videos, setVideos] = useState([])
 
 
-  useEffect(()=>{
-
-    // const axios = require("axios");
-
-
-
-
-
   const VideoArr = [
     'https://www.w3schools.com/html/mov_bbb.mp4',
     'https://www.w3schools.com/html/mov_bbb.mp4',
