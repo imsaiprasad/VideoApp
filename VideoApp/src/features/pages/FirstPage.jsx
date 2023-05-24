@@ -14,31 +14,7 @@ function FirstPage() {
 
     // const axios = require("axios");
 
-const options = {
-  method: 'GET',
-  url: 'https://steppschuh-json-porn-v1.p.rapidapi.com/porn/',
-  params: {
-    offset: '0',
-    pornId: '5073292679446528',
-    producerId: '4554967436230656',
-    pornType: '4',
-    count: '5',
-    actorId: '5681034041491456',
-    genreId: '5245132710346752'
-  },
-  headers: {
-    'X-RapidAPI-Key': 'cf02e3f312mshdb9b0c29618f494p10e56bjsn321aab05d42e',
-    'X-RapidAPI-Host': 'steppschuh-json-porn-v1.p.rapidapi.com'
-  }
-};
 
-axios.request(options).then(function (response) {
-	console.log("data : ",response.data);
-}).catch(function (error) {
-	console.error(error);
-});
-
-  },[])
 
 
 
